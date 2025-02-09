@@ -2,7 +2,7 @@
 
 declare -a files
 directory="university_db"
-files=("create_and_use_db.sql" "drop_db.sql") # Array of filenames
+files=("create_and_use_db.sql" "drop_db.sql" "university_db/create_and_use_db.sql") # Array of filenames
 
 # Check if sqlfluff is installed.  If not, provide instructions.
 if ! command -v sqlfluff &> /dev/null; then
